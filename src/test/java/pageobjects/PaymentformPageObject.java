@@ -14,8 +14,7 @@ public class PaymentformPageObject extends PageObject {
         return false;
     }
 
-    public void Payment (String email, ConfigReader instance) throws InterruptedException {
-
+    public void payment (String email, ConfigReader instance) throws InterruptedException {
         //PaymentForm
         String aed = browser.findElement(By.cssSelector("#mobil-booking-summary-total")).getAttribute("textContent");
         String[] AED = aed.split(" ");
@@ -52,11 +51,7 @@ public class PaymentformPageObject extends PageObject {
             System.out.println("350 AED tutarının altında şipariş olduğu için Voucher code uygulanmadı...");
             String PromoCode = browser.findElement(By.cssSelector("#promo_code")).getAttribute("textContent");
             System.out.println("Promo Code = " + PromoCode);
-
-
         }
-
-
     }
 
 }

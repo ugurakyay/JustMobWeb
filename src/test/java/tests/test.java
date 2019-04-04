@@ -9,30 +9,24 @@ public class test extends BaseWebAutomationTest {
 
 
     private OrderPageObject order;
-    private CleanderPageObject picdate;
+    private CleanderPageObject picDate;
     private ContactFormPageObject contact;
     private PaymentformPageObject payment;
 
-
-
     public test(){
-
         order = new OrderPageObject();
-        picdate = new CleanderPageObject();
+        picDate = new CleanderPageObject();
         contact = new ContactFormPageObject();
         payment = new PaymentformPageObject();
-
-
     }
 
     @Test
-
     public void addBook () throws InterruptedException {
         order.navigateTo();
         order.orderMob();
-        picdate.CleanderSelect();
+        picDate.cleanderSelect();
         contact.contact(ConfigReader.getInstance().getUserName(),ConfigReader.getInstance());
-        payment.Payment(ConfigReader.getInstance().getUserName(),ConfigReader.getInstance());
+        payment.payment(ConfigReader.getInstance().getUserName(),ConfigReader.getInstance());
 
     }
 }

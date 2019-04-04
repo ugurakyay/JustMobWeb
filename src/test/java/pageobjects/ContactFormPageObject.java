@@ -1,13 +1,10 @@
 package pageobjects;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import test.automation.framework.config.ConfigReader;
 import test.automation.framework.pageobject.PageObject;
 
 public class ContactFormPageObject extends PageObject {
-
-
 
     @Override
     public void navigateTo() { browser.get(ConfigReader.getInstance().getHost()); }
@@ -18,7 +15,6 @@ public class ContactFormPageObject extends PageObject {
     }
 
     public void contact (String email, ConfigReader instance) throws InterruptedException{
-
     //contactform
     browser.findElement(By.id("create_account_name")).sendKeys("Akyay");
     browser.findElement(By.id("create_account_phone")).sendKeys("586623204");
@@ -40,6 +36,6 @@ public class ContactFormPageObject extends PageObject {
     browser.findElement(By.cssSelector("body > div.wrapper > div:nth-child(2) > div > div.checkout-form > div.form-area > div.wizard-form > div.panel.wizard.active > div.panel-body > div.checkout-login.active > div.checkout-form-register > form > div.form-group.slider-buttons > div.half-quater > div")).click();
     Thread.sleep(3000);
 
-}
+    }
 
 }
