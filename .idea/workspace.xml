@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b59587-ba81-4f43-834f-dc262ec733cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/PaymentformPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/PaymentformPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/bookPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/test.class" afterDir="false" />
-    </list>
+    <list default="true" id="f8b59587-ba81-4f43-834f-dc262ec733cd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -58,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
@@ -157,8 +149,8 @@
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/CleanderPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/test.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.json" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.json" />
       </list>
     </option>
   </component>
@@ -174,7 +166,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="17" />
     <option name="y" value="36" />
     <option name="width" value="1260" />
@@ -371,18 +363,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_addBook - 2019.04.04 at 13h 35m 16s.xml">
-      <configuration name="test.addBook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 13h 35m 42s.xml">
-      <configuration name="test.addBook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 13h 38m 07s.xml">
-      <configuration name="test.addBook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 13h 38m 26s.xml">
-      <configuration name="test.addBook" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="test_addBook - 2019.04.04 at 13h 40m 08s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
@@ -399,6 +379,18 @@
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
     <history-entry file="test_addBook - 2019.04.04 at 13h 48m 57s.xml">
+      <configuration name="test.addBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_addBook - 2019.04.04 at 13h 50m 24s.xml">
+      <configuration name="test.addBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_addBook - 2019.04.04 at 13h 50m 58s.xml">
+      <configuration name="test.addBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_addBook - 2019.04.04 at 13h 52m 49s.xml">
+      <configuration name="test.addBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_addBook - 2019.04.04 at 13h 52m 56s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -655,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -671,6 +656,13 @@
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#265#266#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
