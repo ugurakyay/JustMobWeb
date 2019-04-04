@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import test.automation.framework.config.ConfigReader;
 import test.automation.framework.pageobject.PageObject;
 
+import static org.apache.commons.lang3.RandomStringUtils.*;
+
 public class ContactFormPageObject extends PageObject {
 
     @Override
@@ -19,7 +21,7 @@ public class ContactFormPageObject extends PageObject {
     //contactform
     browser.findElement(By.id("create_account_name")).sendKeys("Akyay");
     browser.findElement(By.id("create_account_phone")).sendKeys("586623204");
-    browser.findElement(By.id("create_account_email")).sendKeys("ugur"+"akyay"+ RandomStringUtils.random(999)+"@yobmail.com");
+    browser.findElement(By.id("create_account_email")).sendKeys("ugurakyay"+ RandomStringUtils.randomNumeric(5)+"@yobmail.com");
     browser.findElement(By.id("create_account_password")).sendKeys("123456");
     Thread.sleep(4000);
     browser.findElement(By.xpath("//*[@id=\"create_account_city\"]/div[1]")).click();
