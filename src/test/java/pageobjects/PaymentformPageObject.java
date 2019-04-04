@@ -34,7 +34,7 @@ public class PaymentformPageObject extends PageObject {
             browser.findElement(By.xpath("//*[@id=\"add_new_credit_card_month\"]")).sendKeys("08");
             browser.findElement(By.xpath("//*[@id=\"add_new_credit_card_year\"]")).sendKeys("2021");
             browser.findElement(By.xpath("//*[@id=\"add_new_credit_card_cvc\"]")).sendKeys("100");
-            Thread.sleep(2000);
+            Thread.sleep(7000);
             browser.findElement(By.cssSelector("body > div.wrapper > div:nth-child(2) > div > div.checkout-form > div.form-area > div.wizard-form > div.panel.wizard.active > div.panel-body > div > div.form-group.slider-buttons > div.half-quater > div")).click();
             Thread.sleep(10000);
             String PromoCode = browser.findElement(By.cssSelector("#promo_code")).getAttribute("textContent");
@@ -49,6 +49,7 @@ public class PaymentformPageObject extends PageObject {
             Thread.sleep(2000);
             browser.findElement(By.cssSelector("body > div.wrapper > div:nth-child(2) > div > div.checkout-form > div.form-area > div.wizard-form > div.panel.wizard.active > div.panel-body > div > div.form-group.slider-buttons > div.half-quater > div")).click();
             Thread.sleep(10000);
+            System.out.println("350 AED tutarının altında şipariş olduğu için Voucher code uygulanmadı...");
             String PromoCode = browser.findElement(By.cssSelector("#promo_code")).getAttribute("textContent");
             System.out.println("Promo Code = " + PromoCode);
 

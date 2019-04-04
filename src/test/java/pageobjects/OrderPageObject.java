@@ -24,7 +24,7 @@ public class OrderPageObject extends PageObject {
         //How often do you need your cleaner? 3 hours
         browser.findElements(By.className("desktop-attribute")).get(0).click();
         Thread.sleep(1000);
-        browser.findElement(By.xpath("//*[@id=\"duration\"]/ul/li[5]")).click();
+        browser.findElement(By.xpath("//*[@id=\"duration\"]/ul/li[4]")).click();
         Thread.sleep(2000);
 
         //How many cleaners do you need? 2

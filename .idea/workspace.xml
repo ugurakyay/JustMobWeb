@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8b59587-ba81-4f43-834f-dc262ec733cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/CleanderPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/ContactFormPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/bookPageObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/PaymentformPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/PaymentformPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/bookPageObject.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -51,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/CleanderPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#238#239#0" expanded="true" />
@@ -61,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+            <state relative-caret-position="58">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
@@ -78,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            <state relative-caret-position="87">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="117">
@@ -158,12 +155,17 @@
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/bookPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/ContactFormPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/CleanderPageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.json" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.json" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="Rerun Failed Tests" />
+    </enabled-run-configurations>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -369,34 +371,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_addBook - 2019.04.04 at 10h 49m 38s.xml">
+    <history-entry file="test_addBook - 2019.04.04 at 13h 35m 16s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 10h 51m 23s.xml">
+    <history-entry file="test_addBook - 2019.04.04 at 13h 35m 42s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 10h 54m 55s.xml">
+    <history-entry file="test_addBook - 2019.04.04 at 13h 38m 07s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 10h 56m 46s.xml">
+    <history-entry file="test_addBook - 2019.04.04 at 13h 38m 26s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 11h 46m 46s.xml">
+    <history-entry file="test_addBook - 2019.04.04 at 13h 40m 08s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 11h 47m 30s.xml">
+    <history-entry file="test_addBook - 2019.04.04 at 13h 40m 14s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 11h 50m 09s.xml">
+    <history-entry file="test_addBook - 2019.04.04 at 13h 47m 04s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 11h 51m 51s.xml">
+    <history-entry file="test_addBook - 2019.04.04 at 13h 47m 07s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 11h 53m 36s.xml">
+    <history-entry file="test_addBook - 2019.04.04 at 13h 48m 53s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_addBook - 2019.04.04 at 11h 56m 05s.xml">
+    <history-entry file="test_addBook - 2019.04.04 at 13h 48m 57s.xml">
       <configuration name="test.addBook" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -411,8 +413,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="36" width="1260" height="674" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,8 +423,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,6 +453,36 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>browser.findElement(By.className(&quot;half-quater&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>browser.findElement(By.id(&quot;voucher-code-button&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>browser.findElement(By.xpath(&quot;/html/body/div[1]/div[2]/div/div[2]/div[2]/div[1]/div[4]/div[2]/div/div[5]/div[2]&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>browser.findElement(By.cssSelector(&quot;body &gt; div.wrapper &gt; div:nth-child(2) &gt; div &gt; div.checkout-form &gt; div.form-area &gt; div.wizard-form &gt; div.panel.wizard.active &gt; div.panel-body &gt; div &gt; div.form-group.slider-buttons &gt; div.half-quater &gt; div&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>browser.findElement(By.cssSelector(&quot;#voucher &gt; div:nth-child(1) &gt; div.half.half-second.en&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>browser.findElement(By.xpath(&quot;/html/body/div[1]/div[2]/div/div[2]/div[2]/div[1]/div[4]/div[2]/div/div[5]/div[2]/div&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>browser</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -461,41 +494,6 @@
       </expression>
       <expression>
         <expression-string>browser.findElements(By.id(&quot;duration&quot;)).get(0).findElements(By.id(&quot;duration&quot;)).get(6)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>browser.findElements(By.id(&quot;duration&quot;)).get(0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>browser.findElements(By.id(&quot;duration&quot;))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>browser.findElements(By.id&quot;&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Select dd = new browser</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>browser.findElements(By.className(&quot;attribute-selection&quot;)).get(0).get</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>browser.findElements(By.className(&quot;attribute-selection&quot;)).get(0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>browser.findElements(By.className(&quot;attribute-selection&quot;)).get(1)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -608,7 +606,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/CleanderPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
@@ -637,14 +635,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+        <state relative-caret-position="117">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,26 +658,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/PaymentformPageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/OrderPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        <state relative-caret-position="58">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
           </folding>
         </state>
       </provider>
