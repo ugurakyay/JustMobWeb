@@ -1,24 +1,38 @@
 package tests;
 
 import org.junit.Test;
-import pageobjects.bookPageObject;
+import pageobjects.*;
 import test.automation.framework.BaseWebAutomationTest;
 import test.automation.framework.config.ConfigReader;
 
 public class test extends BaseWebAutomationTest {
 
-    private bookPageObject bookpage;
+
+    private OrderPageObject order;
+    private CleanderPageObject picdate;
+    private ContactFormPageObject contact;
+    private PaymentformPageObject payment;
+
 
 
     public test(){
-        bookpage = new bookPageObject();
+
+        order = new OrderPageObject();
+        picdate = new CleanderPageObject();
+        contact = new ContactFormPageObject();
+        payment = new PaymentformPageObject();
+
 
     }
 
     @Test
 
     public void addBook () throws InterruptedException {
-        bookpage.navigateTo();
-        bookpage.BookMob();
+        order.navigateTo();
+        order.orderMob();
+        picdate.CleanderSelect();
+        contact.contact(ConfigReader.getInstance().getUserName(),ConfigReader.getInstance());
+        payment.Payment(ConfigReader.getInstance().getUserName(),ConfigReader.getInstance());
+
     }
 }
